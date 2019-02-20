@@ -57,6 +57,10 @@ h2 {
   margin: 0 0 1rem 0;
 }
 
+h3 {
+  margin: 0 0 1rem 0;
+}
+
 @media (min-width: 700px) {
   article {
     flex-direction: row;
@@ -67,6 +71,6 @@ h2 {
   }
 
   h3 {
-    margin-left: 1rem;
+    margin: 0 0 0 1rem;
   }
 }
