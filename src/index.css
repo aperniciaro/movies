@@ -37,7 +37,15 @@ main {
 
 article {
   border-bottom: 0.25rem dashed blue;
-  margin: 0 0.5rem 0 0.5rem;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article img {
+  margin: 0 1rem 0 1rem;
 }
 
 h2 {
