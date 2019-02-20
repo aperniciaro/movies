@@ -40,6 +40,7 @@ article {
   margin: 1rem;
   padding-bottom: 1rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -50,4 +51,12 @@ article img {
 
 h2 {
   color: orange;
+  display: flex;
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  article {
+    flex-direction: row;
+  }
 }
