@@ -4,7 +4,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <h1>1989's Top Movies</h1>
+        <h1>1989's Best Movies</h1>
       </header>
     )
   }
