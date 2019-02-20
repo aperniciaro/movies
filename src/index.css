@@ -17,20 +17,27 @@ header {
   height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+header img {
+  height: 5rem;
+  width: auto;
+  margin: 1rem;
 }
 
 main {
   background-color: pink;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
   border: 0.5rem dotted red;
 }
 
 article {
   border-bottom: 0.25rem dashed blue;
   margin: 0 0.5rem 0 0.5rem;
-  /* not working */
-  /* background-image: '/images/film.jpg'; */
 }
 
 h2 {
