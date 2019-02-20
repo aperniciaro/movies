@@ -11,6 +11,7 @@ class Gallery extends Component {
             <Movie
               key={movie.id}
               movieName={movie.title}
+              releaseDate={movie.release_date}
               moviePoster={movie.poster_path}
               movieOverview={movie.overview}
             />

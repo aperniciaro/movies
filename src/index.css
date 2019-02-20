@@ -53,10 +53,19 @@ h2 {
   color: orange;
   display: flex;
   text-align: center;
+  margin: 0 0 1rem 0;
 }
 
 @media (min-width: 700px) {
   article {
     flex-direction: row;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  h3 {
+    margin-left: 1rem;
   }
 }
