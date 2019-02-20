@@ -4,10 +4,12 @@ import Gallery from './components/Gallery'
 
 class App extends Component {
   render() {
-    ;<section>
-      <Header />
-      <Gallery />
-    </section>
+    return (
+      <>
+        <Header />
+        <Gallery />
+      </>
+    )
   }
 }
 
